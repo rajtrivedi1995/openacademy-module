@@ -1,0 +1,41 @@
+<odoo>
+
+          <data noupdate="0">
+            <record model="openacademy.course" id="begin">
+              <field name="name">Beginner</field>
+              <field name="description">Pretty Simple</field>
+            </record>
+            <record model="openacademy.course" id="hard">
+                <field name="name">Hardened</field>
+                <field name="description">Quite Hard</field>
+            </record>
+            <record model="openacademy.course" id="tough">
+                <field name="name">Veteran</field>
+                <field name="description">Too Tough</field>
+            </record>
+          </data>
+
+          <data noupdate="0">
+            <record id="object0" model="openacademy.openacademy">
+              <field name="name">Flipkart</field>
+            </record>
+
+            <record id="object1" model="openacademy.openacademy">
+              <field name="name">Amazon</field>
+            </record>
+
+            <record id="object2" model="openacademy.openacademy">
+              <field name="name">Myntra</field>
+            </record>
+
+            <record id="object3" model="openacademy.openacademy">
+              <field name="name">Snapdeal</field>
+            </record>
+
+            <record id="object4" model="openacademy.openacademy">
+              <field name="name">Voxpop</field>
+            </record>
+          </data>
+
+
+</odoo>
